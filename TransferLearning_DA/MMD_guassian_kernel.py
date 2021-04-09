@@ -1,3 +1,4 @@
+### guassion kernel based MMD
 import torch
 
 def guassian_kernel(source, target, kernel_mul=2.0, kernel_num=5, fix_sigma=None):
