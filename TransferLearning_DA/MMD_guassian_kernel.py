@@ -59,10 +59,10 @@ if __name__ == "__main__":
     data_1 = torch.tensor(np.random.normal(0,10,(100,50)))
     data_2 = torch.tensor(np.random.normal(10,10,(100,50)))
 
-    print("MMD Loss:",guassian_kernel(data_1,data_2))
+    print("MMD Loss:",mmd(data_1,data_2))
 
     data_1 = torch.tensor(np.random.normal(0,10,(100,50)))
     data_2 = torch.tensor(np.random.normal(0,9,(100,50)))
 
-    print("MMD Loss:",guassian_kernel(data_1,data_2))
+    print("MMD Loss:",mmd(data_1,data_2))
 
